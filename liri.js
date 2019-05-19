@@ -80,7 +80,7 @@ function spotifyThis(medChoice) {
         }
 
         console.log("=======================");
-        console.log("Artist: " + data.tracks.items[0].artists.name);
+        console.log("Artist: " + data.tracks.items[0].artists[0].name);
         console.log("Song name: " + data.tracks.items[0].name);
         console.log("Link: " + data.tracks.items[0].preview_url);
         console.log("Album: " + data.tracks.items[0].album.name)
@@ -127,7 +127,7 @@ function doWhatItSays() {
         var dataArr = data.split(",");
 
         itsCommand = dataArr[0];
-        itsChoice = dataArr[0]
+        itsChoice = dataArr[1];
 
         switch (itsCommand) {
             case "concert-this":
