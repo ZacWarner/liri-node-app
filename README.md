@@ -19,3 +19,12 @@
 *axios
 *fs
 *blood sweat and tears.
+
+![picture alt](./concert-this.png )
+
+
+![picture alt](./spotify-this.png )
+
+![picture alt](./movie-this.png )
+
+![picture alt](./do-what-it-says.png )
